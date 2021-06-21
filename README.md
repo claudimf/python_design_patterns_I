@@ -9,6 +9,22 @@
 ### Aulas
 
 <details>
+    <summary>A grande variedade de impostos e o padrão Strategy</summary>
+    <ul>
+        <li>Vídeo 1</li>
+        <li>A grande variedade de impostos e o padrão Strategy</li>
+        <li>Preparando o ambiente</li>
+        <li>Padrão de projeto</li>
+        <li>Motivação dos padrões</li>
+        <li>Quando usar o Strategy?</li>
+        <li>Strategy o tempo todo?</li>
+        <li>Colocando em prática</li>
+        <li>Arquivos do projeto atual</li>
+    </ul>
+</details>
+
+
+<details>
     <summary>Muitos Descontos e o Chain of Responsibility</summary>
     <ul>
         <li>Vídeo 1</li>
@@ -161,14 +177,16 @@ docker-compose down && docker-compose up
 
 [1° Conteinerização de scripts em Python](https://github.com/claudimf/containerized_python)
 
-[2° Chain of Responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
+[2° Strategy](https://refactoring.guru/pt-br/design-patterns/strategy)
 
-[3° Template Method](https://refactoring.guru/pt-br/design-patterns/template-method)
+[3° Chain of Responsibility](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
 
-[4° Decorator](https://refactoring.guru/pt-br/design-patterns/decorator)
+[4° Template Method](https://refactoring.guru/pt-br/design-patterns/template-method)
 
-[5° State](https://refactoring.guru/pt-br/design-patterns/state)
+[5° Decorator](https://refactoring.guru/pt-br/design-patterns/decorator)
 
-[6° Builder](https://refactoring.guru/pt-br/design-patterns/builder)
+[6° State](https://refactoring.guru/pt-br/design-patterns/state)
 
-[7° Observer](https://refactoring.guru/pt-br/design-patterns/observer)
+[7° Builder](https://refactoring.guru/pt-br/design-patterns/builder)
+
+[8° Observer](https://refactoring.guru/pt-br/design-patterns/observer)
