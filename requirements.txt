@@ -1,0 +1,2 @@
+# Mostrar a árvore de pacotes
+pipdeptree==2.0.0
