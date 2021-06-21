@@ -117,7 +117,7 @@
 
 Para executar um script python, faça conforme o exemplo abaixo:
 ```sh
-docker-compose run --rm app python impostos_strategy/calculador_de_impostos.py
+docker-compose run --rm app python 01_strategy/calculador_de_impostos.py
 ```
 
 ## Listar pacotes:
