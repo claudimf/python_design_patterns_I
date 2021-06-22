@@ -70,13 +70,18 @@ class IKCV(Template_de_imposto_condicional):
         return False
 
 
-class ISS(Imposto):
+def IPVX(metodo_ou_funcao):
+    def wrapper(self, orcamento):
+        return metodo_ou_funcao(self, orcamento) + 50.0
+    return wrapper
 
+
+class ISS(Imposto):
     def calcula(self, orcamento):
         return orcamento.valor * 0.1 + self.calculo_do_outro_imposto(orcamento)
 
 
 class ICMS(Imposto):
-
+    # @IPVX
     def calcula(self, orcamento):
         return orcamento.valor * 0.06 + self.calculo_do_outro_imposto(orcamento)
